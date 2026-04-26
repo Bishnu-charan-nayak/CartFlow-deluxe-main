@@ -51,7 +51,6 @@ interface StoredUser {
   role: 'user' | 'admin';
   createdAt: string;
 }
-
 const getStoredUsers = (): StoredUser[] => {
   try {
     return JSON.parse(localStorage.getItem(USERS_KEY) || '[]');
