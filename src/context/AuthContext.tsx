@@ -64,6 +64,7 @@ const saveStoredUsers = (users: StoredUser[]) => {
 };
 
 // Seed default admin account
+//You Can  add ur Defult Admin id password
 const seedAdmin = () => {
   const users = getStoredUsers();
   if (!users.find((u) => u.email === 'bishnu@shopmart.com')) {
