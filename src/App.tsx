@@ -21,7 +21,6 @@ import AdminProducts from "./pages/admin/AdminProducts";
 import AdminOrders from "./pages/admin/AdminOrders";
 import NotFound from "./pages/NotFound";
 import StoreLayout from "@/components/StoreLayout";
-import NotFound from "./pages/NotFound";
 //All Imported file Hear
 
 const queryClient = new QueryClient();
